@@ -22,8 +22,8 @@
 
         <div id="nav">
         Menu strony<br/><br/>  
-        <a href="18lat.php">Sprawdzanie Pełnoletności </a><br /><br />
-        <a href="Autor.php">O autorze </a><br /><br />
+        <a href="index.php">Sprawdzanie Pełnoletności </a><br /><br />
+        <a >O autorze </a><br /><br />
         
         </div>
 
@@ -38,16 +38,16 @@
 
         if($_POST['rok']+18>date('Y')){
             ?>
-            za młody, wróć później
+            za młody, wróć później / too young, come back later
             <?php
         }else{
             if($_POST['rok']+18==date('Y') && $_POST['miesiac']>date('m')){
             ?>
-                Za młody, wróc później
+                Za młody, wróc później/ too young, come back later
             <?php
             }else{
             ?>
-                Wystarczajaco stary, zapraszamy
+                Wystarczajaco stary, zapraszamy / old enough
             <?php
             }
         }
