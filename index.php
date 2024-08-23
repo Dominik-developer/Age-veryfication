@@ -17,14 +17,13 @@
     <div id="container">
 
         <div id="logo">
-        <h1>Program sprawdzający pełnoletność</h1>
+            <h1>Program sprawdzający pełnoletność</h1>
         </div>
 
         <div id="nav">
-        Menu strony<br/><br/>  
-        <a href="index.php">Sprawdzanie Pełnoletności </a><br /><br />
-        <a >O autorze </a><br /><br />
-        
+            Menu strony<br/><br/>  
+            <a href="index.php">Sprawdzanie Pełnoletności </a><br /><br />
+            <a >O autorze </a><br /><br />
         </div>
 
         <div id="content">
@@ -84,9 +83,7 @@
         </div>
 
         <div id="footer">
-
-            Dominik  - Oficjalny Program Sprawdzający Pełnoletność &copy; 2023 - <?php echo date('Y'); ?>
-
+            Dominik - Oficjalny Program Sprawdzający Pełnoletność &copy; 2023 - <?php echo date('Y'); ?>
         </div>
 
     </div>
