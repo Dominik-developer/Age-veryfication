@@ -7,7 +7,7 @@
     <meta name="keywords" content="pełnoletność" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="author" content="Dominik " />
-    <link rel="stylesheet"href="18.css" type="text/css" />
+    <link rel="stylesheet"href="styles.css" type="text/css" />
   
     
 </head>
@@ -22,8 +22,8 @@
 
         <div id="nav">
         Menu strony<br/><br/>  
-        <a href="18lat.php">Sprawdzanie Pełnoletności </a><br /><br />
-        <a href="Autor.php">O autorze </a><br /><br />
+        <a href="index.php">Sprawdzanie Pełnoletności </a><br /><br />
+        <a >O autorze </a><br /><br />
         
         </div>
 
@@ -31,13 +31,12 @@
           
           <h1>Program sprawdzi czy masz 18 lat</h1>  
 
-          <form action="18.php" method="post">
+          <form action="alg.php" method="post">
 
             Wybierz rok urodzenia:
             <select name='rok'>
 
                 <?php
-                //for($i=1950; $i<date('Y'); $i++){
                 for( $i=date('Y'); $i>1950; $i--){
             
                     ?>
